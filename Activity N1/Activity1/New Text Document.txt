@@ -1,0 +1,11 @@
+> mvn compile
+> mvn test 
+> mvn package => generate a package thats a .jar or .war
+> mvn install
+> mvn deploy
+> mvn site
+
+the order matters. if u run compile it will compile,
+if u run test it will compile then it will do the test (test unitaire)
+if u run package it will execute the compile and test commands then it will execute the package command
+and so on
