@@ -19,7 +19,7 @@ public class EtudiantmvcApplication {
         SpringApplication.run(EtudiantmvcApplication.class, args);
     }
 
-    @Bean
+    //@Bean
     CommandLineRunner commandLineRunner(EtudiantRepository etudiantRepo) {
         return args -> {
             etudiantRepo.save(new Etudiant(null, "Bouizou", "Issam", "issam@gmail.com", new Date(), "MASCULIN", true));
